@@ -3,12 +3,12 @@
     --black: #000;
     --bg-margin-bottom: 120px;
     --blog-min-size: 120px;
-    --blog-max-size: 360px;
+    --blog-max-size: 300px;
 }
 
 
 .background {
-    background-image: url("/assets/library.jpg");
+    background-image: url("/library.webp");
     background-size: cover;
     background-repeat: no-repeat;
     height: 320px;
