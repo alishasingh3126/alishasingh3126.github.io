@@ -1,0 +1,22 @@
+{
+    "blogs": [
+        {
+            "text": "Book Review - Verity",
+            "imgSrc": "assets/verity.jpg",
+            "bgColor": "#dbdade",
+            "link": "books/verity.html"
+        },
+        {
+            "text": "Time Series Analysis - Forecast sales of electronic items",
+            "imgSrc": "assets/time-series.jpg",
+            "bgColor": "#dbdade",
+            "link": "projects/time-series-analysis.html"
+        },
+        {
+            "text": "Book Review - Kite Runner",
+            "imgSrc": "assets/kite-runner.jpg",
+            "bgColor": "#e4d3a8",
+            "link": "books/kite-runner.html"
+        }
+    ]
+}
