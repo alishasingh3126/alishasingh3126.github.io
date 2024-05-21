@@ -2,7 +2,9 @@ import blogs from '../blogs.json'
 
 const blogsContainer = document.getElementById("blogs-container")
 const blogsList = blogs["blogs"]
-    
+
+const divs = []
+
 blogsList.forEach(blog => {
     const div = document.createElement("div")
     const img = document.createElement("img")
@@ -17,5 +19,7 @@ blogsList.forEach(blog => {
 
     div.appendChild(img)
     div.appendChild(text)
-    blogsContainer.appendChild(div)
+    divs.push(div)
 })
+
+blogsContainer.append(...divs)
